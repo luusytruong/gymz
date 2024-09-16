@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="./img/icon/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.4.0-web/css/all.min.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./navigation_css/chatbox.css">
+    <link rel="stylesheet" href="./navigation_css/admin.css">
+    <link rel="stylesheet" href="./navigation_css/login.css">
+    <!-- <link rel="stylesheet" href="./navigation_css/promotion.css"> -->
+    <title>GYMZ - Thể hình giới trẻ</title>
+
+
+</head>
+
+<body>
+    <div class="error">
+        <p>
+            không khả rụng
+        </p>
+    </div>
+    <div class="app">
+        <!-- LUU SY TRUONG -->
+        <div class="header">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <h1>
+                        GYM
+                        <span>
+                            Z
+                        </span>
+                    </h1>
+                </div>
+                <div class="header-nav-bar">
+                    <div class="header-nav home">
+                        <a href="./index.html">
+                            <span>TRANG CHỦ</span>
+                        </a>
+                    </div>
+                    <div class="header-nav chat">
+                        <a href="./navigation/chatbox.html">
+                            CHAT ONLINE
+                        </a>
+                    </div>
+                    <div class="header-nav service">
+                        <span>
+                            DỊCH VỤ
+                        <i class="fa-solid fa-play"></i>
+                        </span>
+                        <div class="drop-content">
+                            <div class="content-service">
+                                <a href="./navigation/personal_trainer.html">
+                                    HUẤN LUYỆN VIÊN
+                                </a>
+                            </div>
+                            <div class="content-service">
+                                <a href="./navigation/shop.html">
+                                    CỬA HÀNG WHEY
+                                </a>
+                            </div>
+                            <div class="content-service">
+                                <a href="./navigation/card.html">
+                                    THẺ HỘI VIÊN
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="header-nav promotion">
+                        <a  href="./navigation/promotion.html">
+                            KHUYẾN MÃI
+                        </a>
+                    </div>
+                </div>
+                <div class="header-login">
+                    <div class="user">
+                        <img class="user-avatar" src="./img/icon/avatar.png" alt="">
+                        <div class="submenu-login">
+                            <ion-icon name="caret-up-sharp"></ion-icon>
+                            <div class="menu-login">
+                                <a href="#">
+                                    Đăng nhập
+                                </a>
+                                <a href="./navigation/information_account.html">
+                                    Thẻ thành viên
+                                </a>
+                                <a href="./navigation/information_card_TS.html">
+                                    Lịch tập
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__inner__menu">
+                    <button class="button-menu" href="#">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="content">
+                        <div class="account">
+                            <div class="account-wrapper">
+                                <div class="account-avt">
+                                    <img src="./img/icon/avatar.png" alt="">
+                                </div>
+                                <div class="account-ifm">
+                                    <p class="account-fullname">
+                                        full name
+                                    </p>
+                                    <p class="account-code">
+                                       acc001
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="close-menu">
+                                <button class="button-menu-close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                            </div>
+                            <!-- <img src="../img/background/logo_and_bgr.png" alt="logo and bgr"> -->
+                        </div>
+                        <div class="content-wrapper">
+                            <a class="content-inner" href="./index.html">
+                                <i class="fa-solid fa-house"></i>
+                                <span class="content-text">
+                                    Trang chủ
+                                </span>
+                            </a>
+                            <a class="content-inner" href="./navigation/promotion.html">
+                                <i class="fa-solid fa-gift"></i>
+                                <span class="content-text">
+                                    Khuyến mãi
+                                </span>
+                            </a>
+                            <a class="content-inner" href="./navigation/chatbox.html">
+                                <i class="fa-solid fa-comments"></i>
+                                <span class="content-text">
+                                    Chat online
+                                </span>
+                            </a>
+                            <a class="content-inner" href="./navigation/shop.html">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="content-text">
+                                    Cửa hàng
+                                </span>
+                            </a>
+                            <a class="content-inner" href="./navigation/card.html">
+                                <i class="fa-solid fa-address-card"></i>
+                                <span class="content-text">
+                                    Thẻ thành viên
+                                </span>
+                            </a>
+                            <a class="content-inner" href="./navigation/personal_trainer.html">
+                                <i class="fa-solid fa-person-harassing"></i>
+                                <span class="content-text">
+                                    Huấn luyện viên
+                            </a>
+                            <div class="content-logout">
+                                <a class="content-inner logout">
+                                    <!-- <i class='bx bx-code-alt'></i> -->
+                                    <i class="bxf fa-solid fa-right-from-bracket"></i>
+                                    <span class="content-text">
+                                        Đăng xuất
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- <div class="grid1"> -->
+            <div class="container__box">
+                <div class="navbar">
+                    <ul class="nav-menu">
+                        <li class="nav-item nav-admin-ifm">
+                            <img class="nav-admin-ifm-avt" src="./img/icon/avatar.png" alt="">
+                            <span class="nav-admin-ifm-name">Admin Name</span>
+                            <div class="nav-close">
+                                <button class="nav-close-bt">
+                                    <!-- <i class="fa-solid fa-bars"></i> -->
+                                    <ion-icon class="nav-close-bt-icon" name="close-sharp"></ion-icon>
+                                </button>
+                            </div>
+                        </li>
+                        <li id="QLMessage" class="nav-item">
+                            <ion-icon class="nav-item-icon" name="chatbubbles-sharp"></ion-icon>
+                            <span class="nav-item-text">
+                                Tin nhắn
+                            </span>
+                        </li>
+                        <li id="QLAccount" class="nav-item">
+                            <ion-icon class="nav-item-icon" name="people-sharp"></ion-icon>
+                            <span class="nav-item-text">
+                                QL tài khoản
+                            </span>
+                        </li>
+                        <li id="QLCard" class="nav-item">
+                            <ion-icon class="nav-item-icon" name="card-sharp"></ion-icon>
+                            <span class="nav-item-text">
+                                QL thẻ thành viên
+                            </span>
+                        </li>
+                        <li id="QLCalendar" class="nav-item">
+                            <ion-icon class="nav-item-icon" name="calendar-sharp"></ion-icon>
+                            <span class="nav-item-text">
+                                QL lịch tập
+                            </span>
+                        </li>
+                        <div class="nav-item-last">
+                            <li id="logOut" class="nav-item">
+                                <ion-icon class="nav-item-icon" name="log-out-sharp"></ion-icon>
+                                <span class="nav-item-text">
+                                    Đăng xuất
+                                </span>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="shadow"></div>
+                <div class="container__show">
+
+                    <!-- MESSAGE -->
+                    <div id="groupList" class="msgr">
+                        <div id="listItem" class="msgr-box">
+                            <div class="msgr-box-left">
+                                <div class="box-title">
+                                    <div class="nav-open">
+                                        <button class="nav-open-bt">
+                                            <ion-icon class="nav-open-bt-icon" name="menu-sharp"></ion-icon>
+                                        </button>
+                                    </div>
+                                    <h3 class="title-row">
+                                        Đoạn chat
+                                    </h3>
+                                    <div class="sub-middle">
+                                        <button id="next" class="slide-right">
+                                            <ion-icon name="chevron-forward-sharp">
+                                            </ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="msgr-box-search">
+                                    <ion-icon class="msgr-search-exit" name="arrow-back-sharp">
+                                    </ion-icon>
+                                    <div class="msgr-search-input">
+                                        <ion-icon class="msgr-search-input-icon" name="search-sharp">
+                                        </ion-icon>
+                                        <input id="searchInput" class="msgr-search-input-text" type="text"
+                                               placeholder="Tìm kiếm trên chatbox" autocomplete="nope">
+                                    </div>
+                                </div>
+                                <div class="msg-list">
+                                    <!-- <div class="conversation csvacc001">
+                                        <div class="user-chat">
+                                            <img class="user-img" src="./img/icon/avatar.png" alt="">
+                                            <div class="user-wrapper">
+                                                <div class="fullname">
+                                                    fullname
+                                                </div>
+                                                <div class="last-msg">
+                                                    ''
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="show-more">
+                                            <ion-icon name="ellipsis-horizontal-sharp"></ion-icon>
+                                        </button>
+                                        <div class="more">
+                                            <div class="delete-chat">
+                                                <ion-icon name="trash-sharp"></ion-icon>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="msgr-box-right">
+                                <div class="box-chat">
+                                    <div class="box-chat-wrapper">
+                                        <div class="box-top">
+                                            <div class="first-item">
+                                                <button id="prve" class="slide-left">
+                                                    <ion-icon name="chevron-back-sharp" role="img" class="md hydrated">
+                                                    </ion-icon>
+                                                </button>
+                                            </div>
+                                            <div class="recipient">
+                                                <div class="repcipient-img">
+                                                    <img src="./img/icon/avatar.png" alt="">
+                                                </div>
+                                                <div class="repcipient-info">
+                                                    <div class="repcipient-fullname">
+                                                        admin dep trai
+                                                    </div>
+                                                    <div class="repcipient-status">
+                                                        Đang hoạt động
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-middel">
+                                            <!-- <div class="message-list + conversationID">
+                                                <div class="message + role">
+                                                    <p class="message-content">
+                                                        messageText
+                                                    </p>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                        <div class="box-bottom">
+                                            <div class="input-area">
+                                                <div class="input-select">
+                                                    <textarea class="input-text" placeholder="Aa" cols="1" rows="1"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="button-area">
+                                                <button class="button-send">
+                                                    <ion-icon class="button-send-icon" name="send">
+                                                    </ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ACCOUNT -->
+                    <div id="accountTable" class="container__show__account">
+                        <div class="container-select">
+                            <div class="container__show__add container__show__account__add">
+                                <div class="box-title">
+                                    <div class="nav-open">
+                                        <button class="nav-open-bt">
+                                            <ion-icon class="nav-open-bt-icon" name="menu-sharp"></ion-icon>
+                                        </button>
+                                    </div>
+                                    <h3 class="title-row">
+                                        Quản lý tài khoản
+                                    </h3>
+                                    <div class="sub-middle">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container__show__head">
+                                <div class="container__show__head__input__box">
+                                    <i class="exit--search fa-solid fa-arrow-left"></i>
+                                    <input class="show__input__id" type="text" oninput="findByIDAccount(this)"
+                                           placeholder="Nhập mã thẻ của khách hàng">
+                                    <div class="show__find__id__box"></div>
+                                </div>
+                                <div class="head-end" style="display: flex; justify-content: space-between;">
+                                    <button class="container__show__find__btn">Tìm kiếm</button>
+                                    <button id="add-account"
+                                            class="container__show__add__btn container__show__account__add__btn"
+                                            onclick="addAccount()">
+                                        Thêm tài khoản
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- <i class="remove-icon fa-solid fa-trash"></i> -->
+                            <div class="container__show__content">
+                                <table class="table__show table__show__main">
+                                    <tr class="tr__show">
+                                        <th class="th__show">ID</th>
+                                        <th class="th__show">USERNAME</th>
+                                        <th class="th__show">EMAIL</th>
+                                        <th class="th__show">PASSWORD</th>
+                                        <th class="th__show"></th>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="save__box">
+                                <span class="save__message"></span>
+                                <button class="save-btn" onclick="saveAccount()">Lưu</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD -->
+                    <div id="cardTable" class="container__show container__show__card">
+                        <div class="container__show__add container__show__card__add">
+                            <div class="box-title">
+                                <div class="nav-open">
+                                    <button class="nav-open-bt">
+                                        <ion-icon class="nav-open-bt-icon" name="menu-sharp"></ion-icon>
+                                    </button>
+                                </div>
+                                <h3 class="title-row">
+                                    Quản lý thẻ thành viên
+                                </h3>
+                                <div class="sub-middle">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__show__head container__show__card__head">
+                            <div class="container__show__head__input__box container__show__card__head__input__box">
+                                <i class="exit--search fa-solid fa-arrow-left"></i>
+                                <input class="show__input__id" type="text" oninput="findByIDCard(this)"
+                                       placeholder="Nhập mã thẻ hoặc tên khách hàng">
+                                <div class="show__find__id__box">
+                                </div>
+                                </table>
+                            </div>
+                            <div class="head-end">
+                                <select class="show__input__package" id="packet" name="packet">
+                                    <option value="" disabled selected>Loại thẻ</option>
+                                    <option value="BEGINNER">BEGINNER</option>
+                                    <option value="BASIC">BASIC</option>
+                                    <option value="ADVENCE">ADVENCE</option>
+                                </select>
+                                <input id="input-date-start" class="show__input__date" type="text"
+                                       placeholder="Ngày gia nhập">
+                                <input id="input-date-end" class="show__input__date" type="text"
+                                       placeholder="Ngày hết hạn">
+                                <button class="container__show__find__btn container__show__card__find__btn">
+                                    Tìm kiếm
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <i class="remove-icon fa-solid fa-trash"></i> -->
+                        <div class="container__show__content container__show__card__content">
+                            <table class="table__show table__show__main">
+                                <tr class="tr__show">
+                                    <th class="th__show">Mã thẻ</th>
+                                    <th class="th__show">Tên KH</th>
+                                    <th class="th__show">Tuổi</th>
+                                    <th class="th__show">SĐT</th>
+                                    <th class="th__show">Loại thẻ</th>
+                                    <th class="th__show">Ngày mua</th>
+                                    <th class="th__show">Ngày hết hạn</th>
+                                    <th class="th__show">Thao tác</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="save__box">
+                            <button id="add-card" class="container__show__add__btn container__show__card__add__btn"
+                                    onclick="addCard()">
+                                Thêm thẻ thành viên
+                            </button>
+                            <span class="save__message"></span>
+                            <button class="save-btn" onclick="saveCard()">Lưu</button>
+                        </div>
+                    </div>
+
+                    <!-- CALENDAR EX -->
+                    <div id="trainingScheduleTable" class="container__show__calendar">
+                        <div class="container__show__add container__show__calendar__add">
+                            <div class="box-title">
+                                <div class="nav-open">
+                                    <button class="nav-open-bt">
+                                        <ion-icon class="nav-open-bt-icon" name="menu-sharp"></ion-icon>
+                                    </button>
+                                </div>
+                                <h3 class="title-row">
+                                    Quản lý lịch tập
+                                </h3>
+                                <div class="sub-middle">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__show__head container__show__calendar__head">
+                            <div class="container__show__head__input__box container__show__calendar__head__input__box">
+                                <i class="exit--search fa-solid fa-arrow-left"></i>
+                                <!-- <input class="show__input__id" type="text" oninput="findByIDCalendar(this)"
+                                       placeholder="Nhập mã thẻ hoặc tên khách hàng"> -->
+                                <input class="show__input__id" type="text"
+                                       placeholder="Nhập mã thẻ hoặc tên khách hàng">
+                                <div class="show__find__id__box">
+                                </div>
+                                </table>
+                            </div>
+                            <div class="head-end" style="display: flex; justify-content: space-between;">
+                                <button class="container__show__find__btn container__show__calendar__find__btn">
+                                    Tìm kiếm
+                                </button>
+                                <button id="add-calendar"
+                                        class="container__show__add__btn container__show__calendar__add__btn"
+                                        onclick="addCalendar()">
+                                    Thêm lịch tập
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <i class="remove-icon fa-solid fa-trash"></i> -->
+                        <div class="container__show__content container__show__calendar__content">
+                            <table class="table__show table__show__main">
+                                <tr class="tr__show">
+                                    <th class="th__show">Mã thẻ</th>
+                                    <th class="th__show">Tên KH</th>
+                                    <th class="th__show">Ngày tập</th>
+                                    <th class="th__show">TG bắt đầu</th>
+                                    <th class="th__show">TG kết thúc</th>
+                                    <th class="th__show">Bài tập</th>
+                                    <th class="th__show">HLV</th>
+                                    <th class="th__show">Ghi chú</th>
+                                    <th class="th__show">Thao tác</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="save__box" onclick="saveCalendar()">
+                            <span class="save__message"></span>
+                            <button class="save-btn">Lưu</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- </div> -->
+
+            <!-- success -->
+            <div>
+                <!-- <div onclick="showSuccessToast();" class="btn btn--sucess">Show succes toast</div>
+                    <div onclick="showErrorToast();" class="btn btn--danger">Show error toast</div> -->
+            </div>
+        </div>
+
+    </div>
+
+    <div id="toast"></div>
+    <!-- overlay -->
+    <div class="modal">
+        <div class="modal-overlay">
+
+        </div>
+        <div class="modal__body">
+            <div class="modal__body__box login-box">
+                <p>Đăng nhập tài khoản</p>
+                <div>
+                    <div class="user-box">
+                        <input class="login-email" required="" name="" type="text">
+                        <label>Tên đăng nhập</label>
+                    </div>
+                    <div class="user-box createBox">
+                        <input class="login-pass" required="" name="" type="password">
+                        <label>Mật khẩu</label>
+                    </div>
+                    <button id="login-btn" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Đăng nhập
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nen_mo"></div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="./navigation_javascript/admin.js"></script> -->
+    <script src="./navigation_javascript/menu.js"></script>
+    <script src="./js/processStatusAccount.js"></script>
+    <script src="./js/processAdmin.js"></script>
+    <script src="./js/processChatAdmin.js"></script>
+</body>
+
+</html>

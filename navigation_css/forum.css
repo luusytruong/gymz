@@ -1,0 +1,51 @@
+
+.container{
+    width: 100%;
+    height: 680px;
+    background-color: indianred;
+    margin-top: 68px;
+}
+.container__inner{
+    display: flex;
+}
+.container__inner__ntf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto auto;
+    color: white;
+    cursor: pointer;
+    margin-top: 340px;
+}
+.container__inner__ntf h1{
+    font-family: montserrat;
+}
+.container__inner__ntf i{
+    color: white;
+    scale: 1.15;
+    margin-left: 10px;
+}
+.container__inner__ntf i:hover{
+    color: goldenrod;
+}
+/* ==================== MEDIA ==================== */
+@media screen and (max-width: 1000px) {
+    .header__inner {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .header__inner__navigation {
+        display: none;
+    }
+
+    .header__inner__try {
+        display: none;
+    }
+
+    .header__inner__menu {
+        display: flex;
+    }
+}
+
+/* ================================================================================================== ĐÂY LÀ PHẦN MENU */

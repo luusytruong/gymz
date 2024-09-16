@@ -1,0 +1,204 @@
+/*  ĐÂY LÀ PHẦN ANIMATION ==================================================================================================*/
+
+@keyframes slide_left {
+    0% {
+        opacity: 1;
+        left: 0;
+    }
+
+    100% {
+        opacity: 1;
+        left: -300px;
+
+    }
+}
+
+@keyframes slide_right {
+    0% {
+        opacity: 1;
+        left: -300px;
+
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+
+    }
+}
+
+@keyframes re_opacity {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+
+    }
+}
+
+@keyframes in_opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hienlen {
+    from {
+        top: 120%;
+        opacity: 0;
+    }
+
+    to {
+        top: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        top: 50%;
+        opacity: 0;
+        scale: 0.8;
+    }
+    50%{
+        top: 90%;
+        opacity: 0;
+        scale: 0.9;
+    }
+    100% {
+        top: 100%;
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes quayxuong {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes side_right {
+    0% {
+        opacity: 0;
+        left: -300px;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes overlay {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes service_slide_right {
+    0% {
+        margin-left: 15px;
+    }
+    100% {
+        margin-left: 25px;
+    }
+}
+@keyframes service_slide_left {
+    0% {
+        margin-left: 25px;
+    }
+    100% {
+        margin-left: 15px;
+    }
+}
+@keyframes fadeInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+        height: 0px;
+    }
+    50% {
+        opacity: 0.05;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        height: 180px;
+    }
+}
+@keyframes fadeOutToTop {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+        height: 180px;
+    }
+    20% {
+        opacity: 0.05;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+        height: 0px;
+    }
+}
+@keyframes change_bgr {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+@keyframes re_bgr {
+    0% {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+@keyframes fly-to-bot {
+    0% {
+      margin-top: 0px;
+      opacity: 1;
+    }
+    100% {
+      margin-top: 100px;
+      opacity: 0;
+    }
+  }
+  @keyframes fly-to-top {
+    0% {
+      margin-top: 100px;
+      opacity: 0;
+    }
+    100% {
+      margin-top: 0;
+      opacity: 1;
+    }
+  }

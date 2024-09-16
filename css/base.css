@@ -1,0 +1,100 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    max-width: 1200px;
+    width: 100%;
+    min-width: 370px;
+    margin: 0 auto;
+}
+.grid1{
+    max-width: 1300px;
+    width: 100%;
+    min-width: 370px;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap
+}
+
+.body{
+    position: relative;
+}
+
+
+@keyframes slide_left{
+    0%{
+        opacity: 1;
+        left: 0;
+    }
+    100%{
+        opacity: 1;
+        left: -300px;
+        /* display: none; */
+    }
+}
+@keyframes slide_right {
+    0% {
+        opacity: 1;
+        left: -300px;
+        /* right: calc(100vw); */
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+        /* right: calc(100vw - 300px); */
+        /* box-shadow: 10px 10px 1000px 1000px rgba(0, 0, 0, 0.400); */
+    }
+}
+@keyframes re_opacity{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        /* display: none; */
+    }
+}
+@keyframes in_opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 2s;
+}
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

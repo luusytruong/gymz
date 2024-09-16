@@ -1,0 +1,54 @@
+{
+    "calendars": [
+        {
+            "id": "MT01",
+            "name": "LUU SY TRUONG",
+            "date": "T4,5,6",
+            "timeStart": "13:30",
+            "timeEnd": "15:00",
+            "type": "GYM",
+            "ptName": "Truong co bap",
+            "note": "Chưa thanh toán"
+        },
+        {
+            "id": "MT02",
+            "name": "Lê Văn Tiến",
+            "date": "T7,3,2",
+            "timeStart": "15:00",
+            "timeEnd": "16:30",
+            "type": "YOGA",
+            "ptName": "Tien co bap",
+            "note": "Nợ 20k"
+        },
+        {
+            "id": "MT03",
+            "name": "Nguyễn Thị Vân",
+            "date": "T2,3,5",
+            "timeStart": "15:00",
+            "timeEnd": "16:30",
+            "type": "GYM",
+            "ptName": "Tu co bap",
+            "note": "Nợ 2k"
+        },
+        {
+            "id": "MT04",
+            "name": "Hoàng Anh Tú",
+            "date": "T2,3,5",
+            "timeStart": "17:30",
+            "timeEnd": "18:30",
+            "type": "GYM",
+            "ptName": "Van co bap",
+            "note": "Đã thanh toán"
+        },
+        {
+            "id": "MT05",
+            "name": "Ngô Gia Quyến",
+            "date": "T2,3,4",
+            "timeStart": "13:30",
+            "timeEnd": "15:00",
+            "type": "GYM",
+            "ptName": "Quyen co bap",
+            "note": "Chưa thanh toán"
+        }
+    ]
+}

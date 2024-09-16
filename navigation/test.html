@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            overflow: hidden;
+        }
+        .message-wrapper{
+            height: 100vh;
+            width: 90%;
+            margin: 0 auto;
+            background-color: green;
+            overflow: hidden;
+            /* display: flex; */
+        }
+        .message-list{
+            height: 100%;
+            width: 100%;
+            background-color: white;
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            /* z-index: 1; */
+        }
+        .message{
+            width: 100%;
+            height: fit-content;
+            /* z-index: 0; */
+        }
+    </style>
+</head>
+<body>
+    <div class="message-wrapper">
+        <div class="message-list">
+            <div class="message customer">
+                <div class="messsage-content">
+                    .box-middel{
+                        height: 100%;
+                        width: 100%;
+                        background-color: #ffffff;
+                        overflow: hidden;
+                    }
+                    .message-list{
+                        height: fit-content;
+                        width: 100%;
+                        padding: 8px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        overflow-y: scroll;
+                    }
+                    /* .message-list::-webkit-scrollbar{
+                        width: 0;
+                    } */
+                    .message{
+                        width: 100%;
+                        height: fit-content;
+                        margin: 10px 0;
+                        text-decoration: none;
+                        display: flex;
+                    }
+                    .message:first-child{
+                        margin-top: 15px;
+                    }
+                    .message:last-child{
+                        margin-bottom: 15px;
+                    }
+                    .message.customer{
+                        display: flex;
+                        justify-content: flex-end;
+                        /* text-align: end; */
+                    }
+                    .message.admin{
+                        display: flex;
+                        justify-content: flex-start;
+                        /* text-align: start; */
+                    }
+                    .message-content{
+                        max-width: 70%;
+                        padding: 8px 12px;
+                        word-wrap: anywhere;
+                    }
+                    .message.customer .message-content{
+                        background-color: #333;
+                        color: white;
+                        border-radius: 20px 20px 0 20px;
+                    }
+                    .message.message.admin .message-content{
+                        background-color: #eee;
+                        color: black;
+                        border-radius: 20px 20px 20px 0;
+                    }
+                </div>
+            </div>
+            <div class="message admin">
+                <div class="messsage-content">
+                    .box-middel{
+                        height: 100%;
+                        width: 100%;
+                        background-color: #ffffff;
+                        overflow: hidden;
+                    }
+                    .message-list{
+                        height: fit-content;
+                        width: 100%;
+                        padding: 8px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        overflow-y: scroll;
+                    }
+                    /* .message-list::-webkit-scrollbar{
+                        width: 0;
+                    } */
+                    .message{
+                        width: 100%;
+                        height: fit-content;
+                        margin: 10px 0;
+                        text-decoration: none;
+                        display: flex;
+                    }
+                    .message:first-child{
+                        margin-top: 15px;
+                    }
+                    .message:last-child{
+                        margin-bottom: 15px;
+                    }
+                    .message.customer{
+                        display: flex;
+                        justify-content: flex-end;
+                        /* text-align: end; */
+                    }
+                    .message.admin{
+                        display: flex;
+                        justify-content: flex-start;
+                        /* text-align: start; */
+                    }
+                    .message-content{
+                        max-width: 70%;
+                        padding: 8px 12px;
+                        word-wrap: anywhere;
+                    }
+                    .message.customer .message-content{
+                        background-color: #333;
+                        color: white;
+                        border-radius: 20px 20px 0 20px;
+                    }
+                    .message.message.admin .message-content{
+                        background-color: #eee;
+                        color: black;
+                        border-radius: 20px 20px 20px 0;
+                    }
+                </div>
+            </div>
+            <div class="message customer">
+                <div class="messsage-content">
+                    .box-middel{
+                        height: 100%;
+                        width: 100%;
+                        background-color: #ffffff;
+                        overflow: hidden;
+                    }
+                    .message-list{
+                        height: fit-content;
+                        width: 100%;
+                        padding: 8px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        overflow-y: scroll;
+                    }
+                    /* .message-list::-webkit-scrollbar{
+                        width: 0;
+                    } */
+                    .message{
+                        width: 100%;
+                        height: fit-content;
+                        margin: 10px 0;
+                        text-decoration: none;
+                        display: flex;
+                    }
+                    .message:first-child{
+                        margin-top: 15px;
+                    }
+                    .message:last-child{
+                        margin-bottom: 15px;
+                    }
+                    .message.customer{
+                        display: flex;
+                        justify-content: flex-end;
+                        /* text-align: end; */
+                    }
+                    .message.admin{
+                        display: flex;
+                        justify-content: flex-start;
+                        /* text-align: start; */
+                    }
+                    .message-content{
+                        max-width: 70%;
+                        padding: 8px 12px;
+                        word-wrap: anywhere;
+                    }
+                    .message.customer .message-content{
+                        background-color: #333;
+                        color: white;
+                        border-radius: 20px 20px 0 20px;
+                    }
+                    .message.message.admin .message-content{
+                        background-color: #eee;
+                        color: black;
+                        border-radius: 20px 20px 20px 0;
+                    }
+                </div>
+            </div>
+            <div class="message admin">
+                <div class="messsage-content">
+                    .box-middel{
+                        height: 100%;
+                        width: 100%;
+                        background-color: #ffffff;
+                        overflow: hidden;
+                    }
+                    .message-list{
+                        height: fit-content;
+                        width: 100%;
+                        padding: 8px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        overflow-y: scroll;
+                    }
+                    /* .message-list::-webkit-scrollbar{
+                        width: 0;
+                    } */
+                    .message{
+                        width: 100%;
+                        height: fit-content;
+                        margin: 10px 0;
+                        text-decoration: none;
+                        display: flex;
+                    }
+                    .message:first-child{
+                        margin-top: 15px;
+                    }
+                    .message:last-child{
+                        margin-bottom: 15px;
+                    }
+                    .message.customer{
+                        display: flex;
+                        justify-content: flex-end;
+                        /* text-align: end; */
+                    }
+                    .message.admin{
+                        display: flex;
+                        justify-content: flex-start;
+                        /* text-align: start; */
+                    }
+                    .message-content{
+                        max-width: 70%;
+                        padding: 8px 12px;
+                        word-wrap: anywhere;
+                    }
+                    .message.customer .message-content{
+                        background-color: #333;
+                        color: white;
+                        border-radius: 20px 20px 0 20px;
+                    }
+                    .message.message.admin .message-content{
+                        background-color: #eee;
+                        color: black;
+                        border-radius: 20px 20px 20px 0;
+                    }
+                </div>
+            </div>
+            <div class="message customer">
+                <div class="messsage-content">
+                    .box-middel{
+                        height: 100%;
+                        width: 100%;
+                        background-color: #ffffff;
+                        overflow: hidden;
+                    }
+                    .message-list{
+                        height: fit-content;
+                        width: 100%;
+                        padding: 8px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        overflow-y: scroll;
+                    }
+                    /* .message-list::-webkit-scrollbar{
+                        width: 0;
+                    } */
+                    .message{
+                        width: 100%;
+                        height: fit-content;
+                        margin: 10px 0;
+                        text-decoration: none;
+                        display: flex;
+                    }
+                    .message:first-child{
+                        margin-top: 15px;
+                    }
+                    .message:last-child{
+                        margin-bottom: 15px;
+                    }
+                    .message.customer{
+                        display: flex;
+                        justify-content: flex-end;
+                        /* text-align: end; */
+                    }
+                    .message.admin{
+                        display: flex;
+                        justify-content: flex-start;
+                        /* text-align: start; */
+                    }
+                    .message-content{
+                        max-width: 70%;
+                        padding: 8px 12px;
+                        word-wrap: anywhere;
+                    }
+                    .message.customer .message-content{
+                        background-color: #333;
+                        color: white;
+                        border-radius: 20px 20px 0 20px;
+                    }
+                    .message.message.admin .message-content{
+                        background-color: #eee;
+                        color: black;
+                        border-radius: 20px 20px 20px 0;
+                    }
+                </div>
+            </div>
+            <div class="message admin">
+                <div class="messsage-content">
+                    .box-middel{
+                        height: 100%;
+                        width: 100%;
+                        background-color: #ffffff;
+                        overflow: hidden;
+                    }
+                    .message-list{
+                        height: fit-content;
+                        width: 100%;
+                        padding: 8px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        overflow-y: scroll;
+                    }
+                    /* .message-list::-webkit-scrollbar{
+                        width: 0;
+                    } */
+                    .message{
+                        width: 100%;
+                        height: fit-content;
+                        margin: 10px 0;
+                        text-decoration: none;
+                        display: flex;
+                    }
+                    .message:first-child{
+                        margin-top: 15px;
+                    }
+                    .message:last-child{
+                        margin-bottom: 15px;
+                    }
+                    .message.customer{
+                        display: flex;
+                        justify-content: flex-end;
+                        /* text-align: end; */
+                    }
+                    .message.admin{
+                        display: flex;
+                        justify-content: flex-start;
+                        /* text-align: start; */
+                    }
+                    .message-content{
+                        max-width: 70%;
+                        padding: 8px 12px;
+                        word-wrap: anywhere;
+                    }
+                    .message.customer .message-content{
+                        background-color: #333;
+                        color: white;
+                        border-radius: 20px 20px 0 20px;
+                    }
+                    .message.message.admin .message-content{
+                        background-color: #eee;
+                        color: black;
+                        border-radius: 20px 20px 20px 0;
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
